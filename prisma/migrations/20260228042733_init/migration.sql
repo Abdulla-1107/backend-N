@@ -1,0 +1,9 @@
+-- AlterTable
+ALTER TABLE "Contact" ALTER COLUMN "email" DROP NOT NULL,
+ALTER COLUMN "message" DROP NOT NULL;
+
+-- AlterTable
+ALTER TABLE "Product" ALTER COLUMN "name_en" DROP NOT NULL,
+ALTER COLUMN "name_ru" DROP NOT NULL,
+ALTER COLUMN "description_ru" DROP NOT NULL,
+ALTER COLUMN "description_en" DROP NOT NULL;
